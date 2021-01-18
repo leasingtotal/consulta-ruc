@@ -108,3 +108,4 @@ venv.bak/
 # others
 .DS_Store
 app.py
+setup.py

@@ -1,5 +1,5 @@
 # Factoring Total
-[![PyPI version](https://badge.fury.io/py/nazk.svg)](https://pypi.org/project/FactoringTotal)
+[![PyPI version](https://badge.fury.io/py/FactoringRuc.svg)](https://pypi.org/project/FactoringTotal)
 
 
 ## Descripción
@@ -7,20 +7,20 @@ Libreria para obtener datos basicos desde la SUNAT
 
 ## Instalación
 ```
-pip install consulta_ruc
+pip install FactoringRuc
 ```
 
 ## Uso básico
 ```python
-from factoring_ruc.consulta_ruc import ConsultaRuc
+from factoring_ruc import ConsultaRuc
 
 
 cr = ConsultaRuc()
-usuario_enc = "ClVkPA5dlO4LohdKFd9lMQ=="
-password_enc = "ypwqGiXE8hO2WcKnJ706+g=="
-key = "CA1EE75945E5DFFEBC90CADA1E90CF9D"
-tipo = "R"
-ruc = "20377892918"
+usuario_enc = ""
+password_enc = ""
+key = ""
+tipo = ""
+ruc = ""
 respuesta = cr.search_by_document(usuario_enc,password_enc,key,tipo,ruc)
 print(respuesta)
 ```
