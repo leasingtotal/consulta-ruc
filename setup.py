@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='consulta_ruc',
+    name='consulta_ruc_jsakuda',
     version='1.0.0',
     packages=setuptools.find_packages(),
     url='https://github.com/leasingtotal/consulta-ruc',
