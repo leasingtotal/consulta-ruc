@@ -1,5 +1,5 @@
 # Factoring Total
-[![PyPI version](https://badge.fury.io/py/FactoringRuc.svg)](https://pypi.org/project/FactoringRuc/1.0.0/)
+[![PyPI version](https://badge.fury.io/py/FactoringRuc.svg)](https://pypi.org/project/FactoringRuc/1.0.1/)
 
 
 ## Descripción
