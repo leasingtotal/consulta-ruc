@@ -38,7 +38,7 @@ Revisar PDF enviado
 
 ## Métodos
 
-#### search_by_document(`usuario_enc, password_enc, key, tipo, ruc)
+#### search_by_document(`usuario_enc, password_enc, key, tipo, ruc, bloque)
 Con esto, obtendremos informacion basica del ruc o tipo de documento a consultar. Devolverá por defecto un diccionario ([https://docs.python.org/3.6/tutorial/datastructures.html#dictionaries](https://docs.python.org/3.6/tutorial/datastructures.html#dictionaries)).
 
 ## Consideraciones
